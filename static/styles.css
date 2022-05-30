@@ -1,0 +1,48 @@
+/* Body */
+* {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/* Elems */
+a {
+	text-decoration: none;
+	color: black;
+}
+
+li {
+	list-style: none;
+}
+
+/* Classes */
+.logo {
+	font-size: 32px;
+	color: cornflowerblue;
+}
+
+.Nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 30px 100px 0 100px;
+	margin: 0 30px 0 20px;
+}
+
+.button {
+	font-size: 15px;
+	font-weight: bold;
+	background-color: #2DD35C;
+	display: inline-block;
+	height: 36px;
+	width: 150px;
+	border: none;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.menu {
+	display: flex;
+	gap: 3em;
+	font-size: 22px;
+}
